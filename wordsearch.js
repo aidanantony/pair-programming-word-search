@@ -1,6 +1,3 @@
-//program to find word in 2D array vertically or horizontally
-
-// const transpose = require('../../focal/thereIsNoSpoon.js');
 const transpose = function(matrix) {
   let result = [];
   for (let r = 0; r < matrix[0].length; r++) {
